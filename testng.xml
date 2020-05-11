@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Automation Suite">
+
+	<test name="Endtoend">
+	    <classes>
+	    <!-- commenting signuptest as signup can be done only once -->
+			<!--  <class name="com.altemetrik.LinkedIn_Aut.Signuptest" />
+			-->
+			<class name="com.altemetrik.LinkedIn_Aut.Logintest"/>
+			
+		</classes>
+	</test>
+	</suite>

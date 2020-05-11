@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Automation Suite" duration-ms="63539" started-at="2020-05-11T15:14:37Z" finished-at="2020-05-11T15:15:41Z">
+    <groups>
+    </groups>
+    <test name="Endtoend" duration-ms="63539" started-at="2020-05-11T15:14:37Z" finished-at="2020-05-11T15:15:41Z">
+      <class name="com.altemetrik.LinkedIn_Aut.Logintest">
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:1, instance:com.altemetrik.LinkedIn_Aut.Logintest@2aafb23c]" name="login" duration-ms="39439" started-at="2020-05-11T20:44:38Z" data-provider="getcreds" finished-at="2020-05-11T20:45:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testusersample399@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testuser12;]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="salesclick()[pri:2, instance:com.altemetrik.LinkedIn_Aut.Logintest@2aafb23c]" name="salesclick" duration-ms="7935" started-at="2020-05-11T20:45:17Z" finished-at="2020-05-11T20:45:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- salesclick -->
+        <test-method status="PASS" signature="validations()[pri:3, instance:com.altemetrik.LinkedIn_Aut.Logintest@2aafb23c]" name="validations" duration-ms="13663" started-at="2020-05-11T20:45:25Z" finished-at="2020-05-11T20:45:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validations -->
+        <test-method status="PASS" signature="logout()[pri:4, instance:com.altemetrik.LinkedIn_Aut.Logintest@2aafb23c]" name="logout" duration-ms="2411" started-at="2020-05-11T20:45:39Z" finished-at="2020-05-11T20:45:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- com.altemetrik.LinkedIn_Aut.Logintest -->
+    </test> <!-- Endtoend -->
+  </suite> <!-- Automation Suite -->
+</testng-results>
